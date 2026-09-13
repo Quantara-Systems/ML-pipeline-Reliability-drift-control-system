@@ -1,0 +1,8 @@
+reviews:
+  ignore:
+    - "**/package-lock.json"
+    - "**/yarn.lock"
+    - "**/*.csv"
+    - "**/*.ipynb"
+    - "dist/**"
+    - "build/**"
