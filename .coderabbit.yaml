@@ -1,13 +1,9 @@
 reviews:
-  ignore:
-    - "**/package-lock.json"
-    - "**/yarn.lock"
-    - "**/*.csv"
-    - "**/*.ipynb"
-    - "dist/**"
-    - "build/**"
-    - "**/*.md"
-    - "**/*.bat"
-    - "**/*.example"
-    - "docker-compose.yml"
-    - "docker/**"
+  path_filters:
+    - "!**/*.md"
+    - "!**/*.bat"
+    - "!**/*.example"
+    - "!docker-compose.yml"
+    - "!docker/**"
+    - "!**/package-lock.json"
+    - "!**/*.csv"
