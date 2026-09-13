@@ -6,3 +6,8 @@ reviews:
     - "**/*.ipynb"
     - "dist/**"
     - "build/**"
+    - "**/*.md"
+    - "**/*.bat"
+    - "**/*.example"
+    - "docker-compose.yml"
+    - "docker/**"
