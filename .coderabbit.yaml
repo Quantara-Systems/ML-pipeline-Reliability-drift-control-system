@@ -1,0 +1,9 @@
+reviews:
+  path_filters:
+    - "!**/*.md"
+    - "!**/*.bat"
+    - "!**/*.example"
+    - "!docker-compose.yml"
+    - "!docker/**"
+    - "!**/package-lock.json"
+    - "!**/*.csv"
