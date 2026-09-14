@@ -12,7 +12,7 @@ const { confirm } = Modal;
 // Alerts: displays active system alerts and notification history
 const Alerts = () => {
   const { theme, isDark } = useTheme();
-  const [loading, setLoading] = useState(false);
+  const [actionLoading, setActionLoading] = useState(false);
   const [alerts, setAlerts] = useState([
     {
       id: 1,
@@ -71,7 +71,6 @@ const Alerts = () => {
     }
   ]);
 
-  const [loading, setLoading] = useState(false);
   const [activeTab, setActiveTab] = useState('all');
 
   const getSeverityConfig = (severity) => {
